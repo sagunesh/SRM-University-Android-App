@@ -1,0 +1,41 @@
+{
+	"id": 1,
+	"total": 4,
+	"result": [
+		{
+			"id": 1,
+			"picture": "img/fc.jpg",
+			"title": "Dr. T.R. Paari Vendhar",
+			"subtitle": "Hon'ble Founder Chancellor,SRM University",
+			"body": "We can't predict, but we can ensure that our students will be the most knowledgeable for leaders, that they will make a difference and that they will creatively and skillfully guide the next century for progress and excellence."
+            
+		},
+		{
+			"id": 2,
+			"picture": "img/chancellor.jpg",
+			"title": "Shri. Ravi Pachamoothoo",
+			"subtitle": "Hon'ble Chancellor,SRM University,Haryana",
+			"body": "Our institutions mainly want to imbibe the quality of personality development and create a thirst for knowledge and determination to succeed within the students. We are very much conservative to retain the traditional values of discipline, respect and sincerity in all their endeavours. The management is constantly on the lookout to give students every opportunity for personal growth. Our prime concern is to address the students and their well being is given paramount importance.",
+            "email": "chancellor@srmuniversity.ac.in"
+            
+		}, 
+		{
+			"id": 3,
+			"picture": "img/president.jpg",
+			"title": "Dr. P. Sathya Narayanan",
+			"subtitle": "Hon'ble President,SRM University",
+			"body": "Above all, it is our endeavour to ensure that our students emerge as well- rounded individuals, and not just academically inclined minds. Our international affiliations further help them acquire global perspective to innovate and excel across the world. We are strongly committed to the maintenance of quality and excellence in education. High quality of teaching, corporate, consulting, Management Development programmes and research are our hallmarks."
+            
+            
+		},
+		{
+			"id": 4,
+			"picture": "img/vc.jpg",
+			"title": "Prof. Dr. S. Rajarajan",
+			"subtitle": "Hon'ble Vice Chancellor, SRM University,Haryana",
+			"body": "The role of private universities in the promotion of knowledge-cum-Nation building mission vis-à-vis both as government funded universities has been gaining nationwide importance not only as complimentary but competitive too. It is really heartening to see myself as a part of the newly established private university,SRM University Haryana of SRM institute of science and technology which has already established a bench mark in engineering, Medicine and research.It would be the endeavour of the entire team of the new university to work towards realizing the vision of making it as a true world class University, imparting excellence in learning, knowledge-cum-skills to students of India & other countries and in moulding them as great citizens of India and World.",
+            "email": "vcsrmh@srmuniversity.ac.in"
+           
+		}
+	]
+}

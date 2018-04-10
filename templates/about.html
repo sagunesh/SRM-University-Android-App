@@ -1,0 +1,32 @@
+<ion-view title="About">
+    <ion-content class="has-header">
+        
+        {{storage}}
+        
+        <div class="list">
+		<div class="item item-divider">
+		About SRM University Haryana 
+		</div>
+		<div class="card">
+  <div class="item item-text-wrap">
+		The recent and special creation of SRM Educational Group towards world class infrastructure and academic ambience that will shape and mould the future citizen of India. The SRM Educational Group as a community have over 20,000 students and 1,500 staff spreading over five campus in India. The SRM Group has earned the best teaching quality rating and a strong research record and offer a wide range of undergraduate, postgraduate and doctoral programs in Engineering, Management, Medicine and Health sciences, and Humanities. Today, our's is a broad-based, research intensive institution with a global reach.
+		   This is a Private State University established by the SRM Institute of Science & Technology Trust (SRM IST Trust), Chennai which is registered as non-profitable trust.</p>
+		</div>
+		</div>
+		<div class="item item-divider">
+		Key People
+		</div>
+            <a class="item item-thumbnail-left" href="#/app/about/{{$index}}" ng-repeat="member in about">
+                <img ng-src="{{member.picture}}" alt="{{member.title}}">
+                
+                <h2>{{member.title}}</h2>
+                <p>{{member.subtitle}}</p>
+                <p><i class="icon ion-email"></i> {{member.email}}</p>
+                
+
+            </a>
+
+        </div>
+
+    </ion-content>
+</ion-view>

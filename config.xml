@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+
+<name>Rate Checker</name>
+
+<description>
+SRM University,Haryana
+</description>
+
+<author href="https://www.srmuniversity.ac.in" email="contact@srmuniversity.ac.in">
+Sagunesh Grover
+</author>
+<!-- Default application icon -->
+<icon src="www/res/img/icon.png" />
+<!--
+    Default icon should work, but cordova don't overwrite
+    the default on all densities
+-->
+<icon src="www/res/img/icon.png" platform="android" density="ldpi" />
+<icon src="www/res/img/icon.png" platform="android" density="mdpi" />
+<icon src="www/res/img/icon.png" platform="android" density="hdpi" />
+<icon src="www/res/img/icon.png" platform="android" density="xhdpi" />
+
+</widget>

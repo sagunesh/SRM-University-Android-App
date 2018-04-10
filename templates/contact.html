@@ -1,0 +1,41 @@
+<ion-view title="Contact">
+    <ion-content class="has-header">
+
+        <div class="list">
+            
+            <label class="item item-input">
+            <input type="text" placeholder="Subject" ng-model="contact.subject">
+            </label>
+
+            <label class="item item-input">
+            <textarea placeholder="Message" ng-model="contact.body"></textarea>
+            </label>
+
+            <label class="item">
+            <button class="button button-block button-positive" type="submit" ng-click="submitForm()">Send Message</button>
+            </label>
+            
+			
+        </div>
+		<div class="list">
+
+  
+
+  <a class="item item-icon-left item-icon-right" href="tel:+919729995385">
+    <i class="icon ion-chatbubble-working"></i>
+    Call Us
+    <i class="icon ion-ios-telephone-outline"></i>
+  </a>
+  <a class="item  item-icon-right" href="#">
+      08816033301/02/03/04/05/06
+    <i class="icon ion-ios-telephone-outline"></i>
+  </a>
+
+  
+
+  
+
+</div>
+   
+    </ion-content>
+</ion-view>
